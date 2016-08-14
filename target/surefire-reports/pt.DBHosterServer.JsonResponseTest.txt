@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: pt.DBHosterServer.JsonResponseTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.096 sec <<< FAILURE!
+testServerResponse(pt.DBHosterServer.JsonResponseTest)  Time elapsed: 0.094 sec  <<< FAILURE!
+junit.framework.ComparisonFailure: expected:<...You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'null' at line 1...> but was:<...null...>
+	at junit.framework.Assert.assertEquals(Assert.java:81)
+	at junit.framework.Assert.assertEquals(Assert.java:87)
+	at pt.DBHosterServer.JsonResponseTest.testServerResponse(JsonResponseTest.java:16)
+

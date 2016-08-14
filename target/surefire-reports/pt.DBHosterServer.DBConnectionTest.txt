@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: pt.DBHosterServer.DBConnectionTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.073 sec <<< FAILURE!
+testNotNullCreateConnect(pt.DBHosterServer.DBConnectionTest)  Time elapsed: 0.07 sec  <<< FAILURE!
+junit.framework.AssertionFailedError
+	at junit.framework.Assert.fail(Assert.java:47)
+	at junit.framework.Assert.assertTrue(Assert.java:20)
+	at junit.framework.Assert.assertNotNull(Assert.java:220)
+	at junit.framework.Assert.assertNotNull(Assert.java:213)
+	at pt.DBHosterServer.DBConnectionTest.testNotNullCreateConnect(DBConnectionTest.java:16)
+
